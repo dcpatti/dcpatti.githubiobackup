@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Analyzing Animal Shelter Metrics</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+     <div class="container">
+       <a class="navbar-brand" href="index.html">Animal Shelter Analysis</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+
+
+           <li class="nav-item">
+             <a class="nav-link" href="visualizations.html">Visualizations</a>
+           </li>
+
+           <li class="nav-item">
+ 		      <a class="nav-link" href="data.html">Raw Data</a>
+ 		      <li class="nav-item dropdown">
+ 			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ 			            Plots and Charts
+ 			          </a>
+ 			          <div class="dropdown-menu" aria-labelledby="Plots and Charts">
+ 			            <a class="dropdown-item" href="intake1.html">Intake Factors</a>
+ 			            <a class="dropdown-item" href="intake2.html">Intake Demographics</a>
+ 			            <a class="dropdown-item" href="outcomes1.html">Outcomes</a>
+ 			            <a class="dropdown-item" href="outcomes2.html">Outcome Factors</a>
+         </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+
+
+    <!-- Page Features -->
+       <div class="row text-center">
+
+         <div class="col-lg-6 col-md-6 mb-6">
+           <div class="card h-100">
+            <h4 class="card-title">Drilling Into Intake Reasons by Species</h4>
+             <img class="card-img-top" src="animal_type_no_strays.png" alt="Chart of Most Common Intake Reasons Sorted by Species">
+             <div class="card-body">
+               <p class="card-text">Exploring the animal types and the intake reasons together can expose some interesting trends. </p>
+
+
+
+             </div>
+             <div class="card-footer">
+              </div>
+           </div>
+         </div>
+
+               <div class="col-lg-6 col-md-6 mb-6">
+		           <div class="card h-100">
+		           <h4 class="card-title">Animal Age Comparison with Intake Reason</h4>
+		             <img class="card-img-top" src="intake_ages.png" alt="Chart comparing intake reason to animal age.">
+		             <div class="card-body">
+
+		               <p class="card-text">Is animal age a factor in intake?</p>
+		             </div>
+		             <div class="card-footer">
+		             </div>
+		           </div>
+		         </div>
+
+
+    </div>
+
+         </div>
+
+
+
+    </div>
+    <!-- /.row -->
+
+
+
+  <!-- /.row -->
+          <div class="row text-center">
+
+            <div class="col-lg-6 col-md-6 mb-6">
+              <div class="card h-100">
+               <h4 class="card-title">Most Common Outcomes</h4>
+                <img class="card-img-top" src="movements.png" alt="Chart of Outcomes">
+                <div class="card-body">
+                 <p> Over 75% of the animals taken in were either adopted, transfered (to a rescue group or a shelter) or placed in foster homes. Fewer than 15% were reclaimed by their owners.
+                 A small number (105 animals, of a total of 4117 intakes) were euthanized.
+
+
+                </div>
+                <div class="card-footer">
+                 </div>
+              </div>
+            </div>
+
+             <div class="col-lg-6 col-md-6 mb-6">
+   		             <div class="card h-100">
+   		             <h4 class="card-title">Euthanasia Demographics</h4>
+
+   		               <img class="card-img-top" src="pts_species.png" alt="Chart of Animal Types">
+   		               <div class="card-body">
+        				  <p>Because cats and dogs make up the overwhelming majority of shelter animals in this facility, it isn't surprisng that they make up the majority of animals that are euthanized.
+        				     Other animal groups combine for a fraction of the euthanasia numbers as cats and dogs.
+     						 </p>
+
+
+   		               </div>
+   		               <div class="card-footer">
+   		                </div>
+   		             </div>
+            </div>
+
+
+
+       </div>
+    <!-- /.row -->
+    </div>
+
+
+    <div class="row text-center">
+
+           <div class="col-lg-6 col-md-6 mb-6">
+             <div class="card h-100">
+              <h4 class="card-title">Favorable Outcomes by Species</h4>
+               <img class="card-img-top" src="favorable_species.png" alt="Chart of Outcomes Grouped by Species">
+               <div class="card-body">
+                <p> For this illustration, the term "favorable outcome" means the animal was adopted, placed in foster, reclaimed, or released to the wild.
+                Because dogs and cats make up the majority of the overall animal population, it stands to reason that they also make up the majority of the favorable outcomes.
+                Other animal types including reptiles and rabbits account for the rest of the favorable outcomes. These ratios are more or less in scale to the species' scale in the overall
+                population, so it does not appear that species is a major factor in favorable outcome rates for most animals. </p>
+
+
+               </div>
+               <div class="card-footer">
+                </div>
+             </div>
+           </div>
+
+            <div class="col-lg-6 col-md-6 mb-6">
+  		             <div class="card h-100">
+  		             <h4 class="card-title">Intake Reasons Compared to Outcomes</h4>
+
+  		               <img class="card-img-top" src="outcomes_intakes.png" alt="Chart of Outcomes Grouped by Species">
+  		               <div class="card-body">
+       				  <p>Exploring potential links between the animal's intake reason and its outcome.</p>
+
+
+  		               </div>
+  		               <div class="card-footer">
+  		                </div>
+  		             </div>
+           </div>
+
+
+
+      </div>
+      <!-- /.row -->
+
+
+
+
+  <div class="row text-center">
+
+         <div class="col-lg-6 col-md-6 mb-6">
+           <div class="card h-100">
+            <h4 class="card-title">Favorable Outcomes by Species</h4>
+             <img class="card-img-top" src="favorable_species.png" alt="Chart of Outcomes Grouped by Species">
+             <div class="card-body">
+              <p> For this illustration, the term "favorable outcome" means the animal was adopted, placed in foster, reclaimed, or released to the wild.
+              Because dogs and cats make up the majority of the overall animal population, it stands to reason that they also make up the majority of the favorable outcomes.
+              Other animal types including reptiles and rabbits account for the rest of the favorable outcomes. These ratios are more or less in scale to the species' scale in the overall
+              population, so it does not appear that species is a major factor in favorable outcome rates for most animals. </p>
+
+
+             </div>
+             <div class="card-footer">
+              </div>
+           </div>
+         </div>
+
+          <div class="col-lg-6 col-md-6 mb-6">
+		             <div class="card h-100">
+		             <h4 class="card-title">Factors That Influence Positive Outcomes</h4>
+
+		               <img class="card-img-top" src="outcome_bubble.png" alt="Chart of Outcomes Grouped by Age">
+		               <div class="card-body">
+     				  <p>Animal age may be the strongest influencer of positive outcomes.</p>
+
+
+		               </div>
+		               <div class="card-footer">
+		                </div>
+		             </div>
+         </div>
+
+
+
+    </div>
+    <!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Analysis by Patti Rodgers</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
