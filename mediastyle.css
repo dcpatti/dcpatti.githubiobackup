@@ -1,99 +1,37 @@
-/
-
-
-
-
-@media screen and (max-width: 768px)
- {
-
-
-.page2, .page3, .page4, .page5 {
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align: center;
-	width: 100%;
-	height: auto;
-	position: relative;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
 }
 
-
-.picture {display: none;}
-
-.page1 .button-white {display: none;}
-
-
-h2 {font-size: 42px;}
-
-h3 {font-size:32px;}
-
-.logo-phone {display: block; width: 50%; margin: auto;}
-
-#logo {display: none;}
-
-.cbp-af-header{display: none;}
-
-h1 {font-size:30px;}
-
-.footer ul li {
-    display: block;
-    padding: 10px 0px;
-    font-weight: 200;
-    font-size: 18px;
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
 }
 
-.huge-title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
-    height: 250px;
-    padding:20px;
-}
-
-.page2 .columns, .page3 .columns, .page4 .columns {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
+  }
 }
 
 
+/* change the size of the jumbotron font */
 
-
-/* Media Queries for iPad in Portrait */
-
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-
-.page2 .columns, .page3 .columns, .page4 .columns {
-    position: relative;
-    width: 100%;
-    height: auto;
-    opacity: 1;
+.jumbotron my-3 {
+color:#000000;
+font-size:8px
+font-weight:bold
+font-family:'Shift', sans-serif;
 }
 
-.row .six.columns, .row .four.columns {
-    position: relative;
-    width: 100%;
-    height: auto;
-    opacity: 1;
+
+/* change the backgroundcolor /*
+.body {
+background-color:#817d7d
 }
-
-.picture {display: none;}
-
-.page1 .button-white {display: none;}
-
-
-
- }
-
-
 
 
